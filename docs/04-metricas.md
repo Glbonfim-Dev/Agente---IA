@@ -17,8 +17,6 @@ A avaliação pode ser feita de duas formas complementares:
 | **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
 | **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
 
-> [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
 
 ---
 
@@ -53,19 +51,13 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- O agente explicou conceitos básicos, como odds e probabilidade implícita, de forma clara e adequada para usuários iniciantes.
+
+-Os cálculos de lucro líquido, retorno, ROI e probabilidade implícita foram realizados corretamente com base nos dados locais.
+
+-O agente utilizou os registros do SQLite, JSON ou CSV sem inventar informações ausentes.
 
 **O que pode melhorar:**
-- [Liste aqui]
-
----
-
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
+- Ampliar a quantidade e a variedade dos dados de teste para validar cenários mais próximos do uso real.
+- Melhorar a interpretação de perguntas escritas de formas diferentes, com erros de digitação ou linguagem informal.
+- Tornar a detecção de intenção mais precisa para distinguir perguntas educacionais, consultas ao histórico e pedidos de registro.
