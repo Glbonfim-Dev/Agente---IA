@@ -1,4 +1,4 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 Agente Financeiro em Mercado Esportivo Inteligente com IA Generativa
 
 ## Contexto
 
