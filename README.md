@@ -28,8 +28,6 @@ Defina **o que** seu agente faz e **como** ele funciona:
 
 ### 2. Base de Conhecimento
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
-
 | Arquivo | Formato | Descrição |
 |---------|---------|-----------|
 | `transacoes.csv` | CSV | Histórico de transações do cliente |
