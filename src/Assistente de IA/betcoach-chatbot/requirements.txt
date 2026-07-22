@@ -1,0 +1,1 @@
+# Nenhuma dependência externa. O projeto usa somente Python 3.11+.

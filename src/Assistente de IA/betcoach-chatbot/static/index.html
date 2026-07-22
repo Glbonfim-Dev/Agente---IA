@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090e14">
+  <title>BetCoach — Educador de Apostas</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">🎓</div>
+        <div>
+          <h1>BetCoach</h1>
+          <p>Seu educador sobre apostas esportivas</p>
+        </div>
+      </div>
+      <button id="clear-button" class="clear-button" type="button" title="Limpar conversa">Limpar</button>
+    </header>
+
+    <div class="status-bar">
+      <span class="status-label"><i id="status-dot" class="dot"></i><span id="status-text">Verificando modo local...</span></span>
+      <span class="topics">Odds · Probabilidade · Jogo responsável</span>
+    </div>
+
+    <section id="messages" class="messages" aria-live="polite">
+      <div id="empty-state" class="empty-state">
+        <div class="empty-icon">💬</div>
+        <strong>O que você quer entender hoje?</strong>
+        <span>Faça sua pergunta. As respostas são educativas e não prometem resultados.</span>
+      </div>
+    </section>
+  </main>
+
+  <div class="composer-wrap">
+    <form id="chat-form" class="composer">
+      <textarea id="message-input" rows="1" maxlength="2000" placeholder="Sua dúvida sobre apostas..." aria-label="Sua dúvida"></textarea>
+      <button id="send-button" type="submit" aria-label="Enviar pergunta">➜</button>
+    </form>
+    <small>Conteúdo educacional. Apostas envolvem risco.</small>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
