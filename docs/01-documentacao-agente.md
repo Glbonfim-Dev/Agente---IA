@@ -35,9 +35,9 @@ educativo
 Formal
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: Olá! Eu sou seu assistente de análise e educação em apostas. Posso explicar mercados, registrar apostas e ajudar você a acompanhar seus resultados.
+- Confirmação: Aposta registrada com sucesso.
+- Erro/Limitação: Não foi possível concluir a operação. Tente novamente, mas seus dados anteriores foram preservados.
 
 ---
 
@@ -59,10 +59,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Chatbot em Streamlit |
+| LLM | GPT-5.6 Sol via API |
+| Base de Conhecimento | JSON/CSV com dados do cliente |
+| Validação | Checagem de alucinações |
 
 ---
 
